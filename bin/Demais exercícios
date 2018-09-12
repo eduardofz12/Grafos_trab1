@@ -1,0 +1,20 @@
+1 - Dê exemplo (se existir) de:
+  - um grafo sem vértices de grau ímpar:
+    R: Um grafo precisa conter pelo menos um vértice para ser considerado grafo.
+  
+  - um grafo sem vértices de grau par:
+    R: Um grafo precisa conter pelo menos um vértice para ser considerado grafo.
+    
+  - um grafo com exatamente um vértice de grau ímpar:
+    R: Não é possível, porque não existe outro vértice para ser adjacente.
+  
+  - um grafo com exatamente um vértice de grau par:
+    R: Seria o grafo C1 (clico de um vértice).
+    
+  - um grafo com exatamente dois vértices de grau ímpar:
+    R: Seria o grafo K1 (completo de um vértice).
+    
+  - um grafo com exatamente dois vértices de grau par:
+    R: Seria um multigrafo com uma aresta paralela entre os dois vértices.
+
+2- A quantidade total de graus desse grafo é de 27, sendo ímpar. Ou seja, não é possível ter um grafo com o total de graus de número ímpar.
