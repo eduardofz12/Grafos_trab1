@@ -1,3 +1,8 @@
+/**
+ *
+ * @author Hugo Marcel Larsen e Murilo Bartel
+ */
+
 1 - Dê exemplo (se existir) de:
   - um grafo sem vértices de grau ímpar:
     R: Um grafo precisa conter pelo menos um vértice para ser considerado grafo.

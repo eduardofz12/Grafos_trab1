@@ -6,13 +6,13 @@ package fila;
  */
 public interface Fila<T> {
 
-    public void inserir(T valor);
+	public void inserir(T valor);
 
-    public boolean estaVazia();
+	public boolean estaVazia();
 
-    public T peek();
+	public T peek();
 
-    public T retirar();
+	public T retirar();
 
-    public void liberar();
+	public void liberar();
 }

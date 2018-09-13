@@ -6,11 +6,33 @@ import fila.FilaVetor;
 import model.Grafo;
 import model.Vertice;
 
+/**
+ *
+ * @author Hugo Marcel Larsen e Murilo Bartel
+ */
+
 public class BuscaEmLargura {
 
 	private enum Cor {
 		BRANCO, CINZA, PRETO;
 	}
+
+	/**
+	 * Executa o algoritmo BFS (busca em largura) no grafo {@param g} e tem o
+	 * objetivo de determinar o menor caminho entre os vértices
+	 * 
+	 * @param g                  O grafo a ser percorrido
+	 * 
+	 * @param nomeVerticeInicial O nome do vértice inicial
+	 * 
+	 * @param nomeVerticeFinal   O nome do vértice final
+	 * 
+	 * @throws IllegalArgumentException Se o vértice inicial ou final não for
+	 *                                  localizado no grafo
+	 * 
+	 * @return {@code String} Menor caminho do vértice inicial até o final
+	 * 
+	 **/
 
 	public String buscar(Grafo g, String nomeVerticeInicial, String nomeVerticeFinal) {
 		// buscar as informações do vértice inicial

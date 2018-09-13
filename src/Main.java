@@ -2,6 +2,11 @@ import busca.BuscaEmLargura;
 import model.Grafo;
 import model.Vertice;
 
+/**
+ *
+ * @author Hugo Marcel Larsen e Murilo Bartel
+ */
+
 public class Main {
 
 	public static void main(String[] args) {

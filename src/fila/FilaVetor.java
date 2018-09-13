@@ -5,8 +5,9 @@ import fila.excecao.FilaVaziaException;
 
 /**
  *
- * @author hugo
+ * @author Hugo Marcel Larsen e Murilo Bartel
  */
+
 public class FilaVetor<T> implements Fila<T> {
 
 	private T[] info;

@@ -2,6 +2,11 @@ package model;
 
 import java.util.ArrayList;
 
+/**
+ *
+ * @author Hugo Marcel Larsen e Murilo Bartel
+ */
+
 public class Vertice {
 
 	private String nome;
