@@ -3,7 +3,7 @@
  * @author Hugo Marcel Larsen e Murilo Bartel
  */
 
-1 - Dê exemplo (se existir) de:
+1- Dê exemplo (se existir) de:
   - um grafo sem vértices de grau ímpar:
     R: Um grafo precisa conter pelo menos um vértice para ser considerado grafo.
   
@@ -14,12 +14,31 @@
     R: Não é possível, porque não existe outro vértice para ser adjacente.
   
   - um grafo com exatamente um vértice de grau par:
-    R: Seria o grafo C1 (clico de um vértice).
+    R: Seria o grafo C1 (grafo clico de um vértice).
     
   - um grafo com exatamente dois vértices de grau ímpar:
-    R: Seria o grafo K1 (completo de um vértice).
+    R: Seria o grafo K2 (grafo completo de dois vértices).
     
   - um grafo com exatamente dois vértices de grau par:
     R: Seria um multigrafo com uma aresta paralela entre os dois vértices.
 
-2- A quantidade total de graus desse grafo é de 27, sendo ímpar. Ou seja, não é possível ter um grafo com o total de graus de número ímpar.
+2- Mostre que não existem grafos com vértices de grau 2, 4, 4, 5, 5 e 7.
+  R: A quantidade total de graus desse grafo é de 27, sendo ímpar, ou seja, não é possível ter um grafo com o total de graus de número ímpar.
+
+3-
+  a) Cidade 0: sai NENHUMA estrada e entra UMA estrada.
+     Cidade 1: saem DUAS estradas e entram TRÊS estradas.
+     Cidade 2: sai UMA estrada e não entra NENHUMA.
+     Cidade 3: sai UMA estrada e entra UMA estada.
+     Cidade 4: saem DUAS estradas e entra UMA estada. 
+  b) A cidade 1, totalizando três estradas que chegam nela.
+  c) Somente a cidade 1 possui ligação de mão dupla, com a cidade 4.
+  d) Cidade 0: não possui saída para nenhuma cidade.
+     Cidade 1: possui saídas para as cidades 0 e 4.
+     Cidade 2: possui saída para a cidade 1.
+     Cidade 3: possui saída para a cidade 1.
+     Cidade 4: possui saídas para as cidades 1 e 3.
+  e) Cidades isoladas: não há.
+     Cidades sem saídas: somente a cidade 0.
+     Cidades sem entradas: somente a cidade 2.
+  d) ???
